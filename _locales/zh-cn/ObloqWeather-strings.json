@@ -1,0 +1,15 @@
+{
+	"ObloqWeather.Obloq_send_ping|block": "发送PING",
+	"ObloqWeather.Obloq_get_version|block": "版本号",
+	"ObloqWeather.Obloq_get_heartbeat|block": "心跳请求",
+	"ObloqWeather.Obloq_stop_heartbeat|block": "停止心跳请求",
+	"ObloqWeather.Obloq_wifi_reconnect|block": "重新连接WIFI",
+	"ObloqWeather.Obloq_wifi_ipconfig|block": "获取IP地址",
+	"ObloqWeather.Obloq_http_setup|block": "Obloq 初始设置 | 引脚设置: | 接收数据(绿色导线): %receive| 发送数据(蓝色导线): %send | Wi-Fi: | 名称: %SSID| 密码: %PASSWORD| 启动连接",
+	"ObloqWeather.Set_location|block": "设置地点：|%location",
+	"ObloqWeather.get_weather|block": "获取天气状况",
+	"ObloqWeather.get_rainfall|block": "获取雨量",
+	"ObloqWeather.get_temperature|block": "获取温度",
+	"ObloqWeather.get_humidity|block": "获取湿度",
+	"ObloqWeather.get_windSpeed|block": "获取风速"
+}
