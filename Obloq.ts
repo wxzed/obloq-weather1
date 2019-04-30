@@ -27,7 +27,6 @@ const OBLOQ_ERROR_TYPE_IS_WIFI_CONNECT_FAILURE = -2
 const OBLOQ_STR_TYPE_IS_NONE = ""
 const OBLOQ_BOOL_TYPE_IS_TRUE = true
 const OBLOQ_BOOL_TYPE_IS_FALSE = false
-
 //topics name
 enum TOPIC {
     topic_1 = 1,
@@ -83,7 +82,7 @@ enum LOCATION {
  *Obloq implementation method.
  */
 //% weight=10 color=#008B00 icon="\uf1eb" block="Obloq-weather"
-namespace ObloqWeather{
+namespace Obloq {
 
     //serial
     let OBLOQ_SERIAL_INIT = OBLOQ_BOOL_TYPE_IS_FALSE
@@ -404,8 +403,8 @@ namespace ObloqWeather{
         if (!OBLOQ_SERIAL_INIT) {
             Obloq_serial_init()
         }
-        obloqWriteString("|3|1|http://api.dfrobot.top/weather?city=Singapore&locations=" + city + "&info=" + info + "|\r")
-        //obloqWriteString("|3|1|http://192.168.1.103:1125/weather?city=Singapore&locations=" + city + "&info=" + info + "|\r")
+        //obloqWriteString("|3|1|http://api.dfrobot.top/weather?city=Singapore&locations=" + city + "&info=" + info + "|\r")
+        obloqWriteString("|3|1|http://192.168.1.103:1125/weather?city=Singapore&locations=" + city + "&info=" + info + "|\r")
 
         return Obloq_http_wait_request(10000);
     }

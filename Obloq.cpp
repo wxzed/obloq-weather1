@@ -1,6 +1,6 @@
 #include "pxt.h"
 using namespace pxt;
-namespace ObloqWeather{
+namespace Obloq {
 
     //%
     void obloqSetTxBufferSize(int size){

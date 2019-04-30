@@ -1,6 +1,6 @@
 {
-    "name": "ObloqWeather",
-    "version": "1.0.1",
+    "name": "Obloq",
+    "version": "1.0.0",
     "description": "Add a Wi-Fi connection to micro:bit and start the project to get weather information in 5 minutes!",
     "license": "MIT",
     "dependencies": {
@@ -9,13 +9,13 @@
     },
     "files": [
         "README.md",
-        "ObloqWeather.ts",
-        "ObloqWeather.cpp",
-        "_locales/zh-cn/ObloqWeather-strings.json"
+        "Obloq.ts",
+        "Obloq.cpp",
+        "_locales/zh-cn/Obloq-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
-    "installedVersion": "workspace:7409c747-1c23-42cf-aade-ff3eb4dad305"
+    "installedVersion": "workspace:a1e74fb3-56c4-48f2-7ea3-d4d9e3e2ecfc"
 }

@@ -1,0 +1,20 @@
+{
+	"Obloq.SERVERS.China|block": "中国",
+	"Obloq.SERVERS.Global|block": "全球",
+	"Obloq.Obloq_http_setup|block": "Obloq 初始设置 | 引脚设置: | 接收数据(绿色导线): %receive| 发送数据(蓝色导线): %send | Wi-Fi: | 名称: %SSID| 密码: %PASSWORD| 启动连接",
+	"Obloq.Obloq_serial_pin_set|block": "引脚设置| 接收数据(绿色导线): %receive| 发送数据(蓝色导线): %send",
+	"Obloq.Obloq_serial_quit|block": "断开串口连接",
+	"Obloq.Obloq_send_ping|block": "发送PING",
+	"Obloq.Obloq_get_version|block": "版本号",
+	"Obloq.Obloq_get_heartbeat|block": "心跳请求",
+	"Obloq.Obloq_stop_heartbeat|block": "停止心跳请求",
+	"Obloq.Obloq_wifi_reconnect|block": "重新连接WIFI",
+	"Obloq.Obloq_wifi_ipconfig|block": "获取IP地址",
+	"Obloq.Obloq_wifi_connect_export|block": "WIFI连接到| 名称 %SSID| 密码 %PASSWORD",
+    "Obloq.Set_location|block": "设置地点：|%location",
+    "Obloq.get_weather|block": "获取天气状况",
+    "Obloq.get_rainfall|block": "获取雨量",
+    "Obloq.get_temperature|block": "获取温度",
+    "Obloq.get_humidity|block": "获取湿度",
+    "Obloq.get_windSpeed|block": "获取风速"
+}

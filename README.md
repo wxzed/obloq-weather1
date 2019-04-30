@@ -45,5 +45,5 @@ MIT
 * for PXT/microbit
 (The metadata above is needed for package search.)
 ```package
-ObloqWeather=github:wxzed/obloq-weather
+Obloq=github:DFRobot/pxt-Obloq
 ```
